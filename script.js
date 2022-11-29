@@ -66,11 +66,53 @@
 
 
 
-//         let array=['watermelon','pear',10,45,50,'apple','ananas']
-//         for(let x of array ){
-//    X         if(x==='string')
-//                 console.log(x);
-//             }
+        // let array=['watermelon','pear',10,45,50,'apple','ananas']
+        // for(let x of array ){
+        //    if(typeof x==='string')
+        //         console.log(x);
+        //     }
+
+
+
+// let users=[
+//     {username:'giorgi',status:false},
+//     {username:'levani',status:false},
+//     {username:'anna',status:true}
+// ]
+
+// for(let x of users)
+// if (x.status==true){
+//     console.log(x);
+// }
+
+
+
+// let array=[2,3,5,10,25,24,11,100,6,7,10]
+
+// for(let x of array)
+// if (x % 2 ==0){
+//     console.log(x);
+// }
+
+
+// for (let x of array)
+// if (x%2==1){
+//     console.log(x);
+// }
+
+
+
+
+
+//  let array =[ [2,-3,5,10], [25,+24,-11,100], [-6,-7,10] ]
+// for (let x of array)
+
+
+// if (typeof [x]>0)
+// {
+//     console.log(x);
+// }
+
 
 
 
