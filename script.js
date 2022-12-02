@@ -114,6 +114,58 @@
 // }
 
 
+// homework2
+'use strict;'
+
+
+
+
+// let array=[1,2,4,-1,-3,8,7,0,-5,18,12]
+// for (let x of array)
+// if ((x>0) && (x<10)){
+//     console.log(x);
+// }
+    
+
+
+// let i=5
+// while (i<100){
+//     console.log(i);i++
+// }
+
+
+// let array2=[1,2,3,4,5,6,7,8,9]
+// for (let x of array2)
+// if (x==5){
+//     console.log('aris')
+//     break
+// }
+
+
+// let x=6
+// if (x==5){
+//     console.log (x);}
+//     else if (x==10){
+//         console.log(x);
+//     }
+// else {console.log('error');}
+
+// switch (x){
+//     case (5):console.log(5);
+//     break
+//     case(10):console.log(10);
+//     break
+//     default:
+//         console.log('error');
+// }
+
+// let array5=[1,2,3,7,6,9]
+// for (let x of array5){
+// if (x==7){
+//     continue;}
+//     console.log(x);
+// }
+
 
 
 
