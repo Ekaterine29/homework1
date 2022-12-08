@@ -114,10 +114,25 @@
 // }
 
 
+
+
+
+
+
+
 // homework2
 'use strict;'
 
-
+// let  obj = {
+//     berlin: 'germany',
+//    tbilisi : 'georgia',
+//    Kiev: 'ukraine'
+//    }
+//    for (let key in obj){
+//     if (key=='tbilisi'){
+//         console.log(key + ''+'is' + '' +obj.tbilisi);
+//     }
+//    }
 
 
 // let array=[1,2,4,-1,-3,8,7,0,-5,18,12]
@@ -167,11 +182,117 @@
 // }
 
 
+// let array3=[1,2,3,4,5]
+// let result=0;
+// for (let i=0;i<array3.length;i++){
+// result+=array3[i];}
+// {
+//     console.log(result);
+// }
+
+// let array4=[1,2,3,7,6,9]
+// let sum=0;
+// for (let item of array4){
+//     sum+=item;
+// }
+// let result=sum/array4.length 
+
+// console.log(result);
 
 
-    
 
 
 
 
+
+// homework3
+
+
+
+// function sum(...numbers){
+//     let numbersum=0;
+//     for (let item of numbers)
+//         {
+//         numbersum+=item;
+//     }
+
+// return(numbersum);}
+
+// let resultFunction=sum(10, 50, 6, 7, 8, 11, 6, 3, 9);
+// console.log(resultFunction);
+
+
+
+
+
+// let sumPositive=(numbers)  =>{
+//     let sum=0;
+  
+//     for (let i=0; i<numbers.length ;++i){
+//         if (numbers[i] >0) {
+//          sum+=numbers[i];
+//         }
+//     }
+
+// return(sum);}
+
+// let result=sumPositive([2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8]);
+// console.log(result);
+
+
+
+
+
+
+
+// let user = {
+//     firstname: 'giorgi',
+//     lastname: 'saakadze',
+//     age: 32,
+//     isloggedin: true
+//   }
+//   function printName(user){
+//     if (user.isloggedin){
+//         return user.firstname + ' ' + user.lastname;
+
+//     }
+//     return faulse;
+//   }
+
+//   let resultFunction=printName(user);
+//   console.log(resultFunction);
+
+
+
+
+// function getMax(...array){
+// console.log(Math.max(...array));
+// }
+
+// getMax(80,20,5,100,150,250,8,3);
+
+
+
+
+// let array=['html','css','python','javascript','bootstrap'];
+// for (let item of array){
+//     if (item.length>4 && item.includes('av')){
+//         console.log(item);
+//     }
+// }
+
+
+
+// for (let i=0; i<array.length; i++){
+
+// if  (array[i].length>4 && array[i].includes('av')){
+//     console.log(array[i]);
+// }}
+
+
+// array.forEach(function(element)  {
+//     if (element.length>4 && element.includes('av')){
+//         console.log(element);
+//     }
+// })
 
