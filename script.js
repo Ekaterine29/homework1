@@ -1,76 +1,3 @@
-// let user={
-//    username:'giorgi',
-//    lastname:"smith",
-//    age:25,
-//    studentstatus:"active"
-// };
-// console.log(user.studentstatus);
-
-
-
-
-
-
-// let numbers=[10,5,20,15,19];
-// for(let n of numbers){
-//     if(n>5){
-//         console.log(n);
-//     }
-// }
-
-
-
-
-
-
-// let numbers=[5,6,10,25,3,7,4,100,28,36,89]
-// for(let y of numbers)
-// if (y>5){
-//     console.log(y);
-// }
-
-
-
-
-
-
-// let user={
-//     name:'giorgi',
-//     age:20,
-//     studentstatus:'active'
-
-
-// }
-
-
-    //  if((user.age<18) && (user.studentstatus==true))
-    //  {
-    //     console.log('hello');}
-
-    // else {console.log('error');}
-
-
-        // if (user.name=='levani'){
-        //     console.log('hello levani');}
-
-        //     else {console.log('error');}
-        
-        
-        // if ((user.userstatus=='active') || (user.age<25)){
-        //     console.log('hello world');
-        // }
-        // else {console.log('error');}
-
-
-
-
-
-
-        // let array=['watermelon','pear',10,45,50,'apple','ananas']
-        // for(let x of array ){
-        //    if(typeof x==='string')
-        //         console.log(x);
-        //     }
 
 
 
@@ -296,3 +223,92 @@
 //     }
 // })
 
+
+
+
+
+// homework 4.
+
+// 1.
+// let array=[5, 25, 89, 120, 36];
+// array.push('javascript','python');
+// console.log(array);
+// array.unshift('html','css');
+// console.log(array);
+// array.shift('html');
+// array.pop('python');
+// console.log(array);
+
+
+// 2.
+// let fruit= ['ფორთოხალი', 'ბანანი', 'მსხალი'];
+
+// console.log(fruit.length);
+// fruit.push('ვაშლი','ანანასი');
+// console.log(fruit);
+// fruit.unshift('საზამთრო');
+// console.log(fruit);
+// console.log(fruit.length);
+// fruit.splice(3,0,'მანგო');
+// console.log(fruit);
+// fruit.shift();fruit.pop();
+// console.log(fruit);
+// console.log(fruit.length);
+
+
+// 3.
+// let array = [12, 25, 3, 6, 8, 14, 7, 23];
+// let newArray=array.map(function(item){
+//     return item/3;
+
+// })
+// console.log(newArray);
+
+
+// 4.
+// let array = ["hello", 125, "javascript", "html", 43, "css", "scss", "bootstrap", 88, 59, "python"];
+// let newArrayFilter=array.filter(function(item){
+//    return(typeof item==='number');
+// })
+// console.log(newArrayFilter);
+
+// 5.
+// let languages = ['html', 'css', 'javascript', 'python', 'php'];
+// let newArrayFilter=languages.filter(function(item){
+    
+//     return item.length>3;
+// })
+// console.log(newArrayFilter);
+
+
+// 6.
+// let item = [12, 'google', 32, null, 'yahoo', 25];
+
+
+// 7.
+// let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
+// let newArray=words.filter(function(item){
+//     return item.includes('m') || ('M');
+
+// })
+// console.log(newArray);
+
+
+// 8.
+// let array = [1, 2, 3, 4, 5];
+
+
+// 9.
+// let numbers = [-2, 5, 10, -5, -1, 1, 3, 4, -15];
+// let newNumbers=numbers.filter(function(element){
+//     return element>0;
+// })
+
+// console.log(newNumbers);
+
+
+
+// 10.
+// let array =[1, 2, 3, 4, 5];
+// array.splice(2,0,'a','b','c');
+// console.log(array);
