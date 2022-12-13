@@ -283,6 +283,15 @@
 
 // 6.
 // let item = [12, 'google', 32, null, 'yahoo', 25];
+// let newArray=item.map(item => {
+//     if (typeof item==='number') {
+// return item*item;
+//     }else if (typeof item=='string'){
+//         return item.toUpperCase();
+//     }
+// return item;
+// })
+// console.log(newArray);
 
 
 // 7.
@@ -296,6 +305,11 @@
 
 // 8.
 // let array = [1, 2, 3, 4, 5];
+// let sum =0;
+// array.forEach(function(item){
+//     sum+=item;
+// })
+// console.log(sum);
 
 
 // 9.
@@ -308,7 +322,39 @@
 
 
 
+
 // 10.
 // let array =[1, 2, 3, 4, 5];
 // array.splice(2,0,'a','b','c');
 // console.log(array);
+
+
+
+
+// homework 5.
+// 1.
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// let arr3 = [5, 6];
+// let allarray=arr1.concat(arr2, arr3);
+
+
+
+// 2.
+// let arr = [-1, -2, -3, 4].some(item => item>0);
+// console.log(arr);
+
+
+// 3.
+// let array =[23,45,32,5,87,7,3,98];
+// array.sort(function(x,y){
+//     return y-x;
+// })
+// console.log(Math.min(...array));
+
+
+// 4.
+// let newElement=document.createElement('p');
+// document.getElementById('test').appendChild(newElement);
+// newElement.setAtbribute('class','text');
+// newElement.textContent='hello world';
